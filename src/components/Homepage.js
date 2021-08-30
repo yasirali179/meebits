@@ -20,18 +20,18 @@ function Homepage() {
                             <div class="flex items-center justify-between h-16 px-4 sm:px-0">
                                 <div class="flex items-center">
                                     <div class="flex-shrink-0">
-                                        <a href="index.html" class="">
+                                        <a href="/" class="">
                                             <img class="h-8 w-8" src={logo} alt="Workflow" />
                                         </a>
                                     </div>
                                     <div class="hidden md:block">
                                         <div class="ml-10 flex items-baseline space-x-4">
 
-                                            <a href="meebits/list.html"
+                                            <a href="/list"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">All
                                                 Meebits</a>
 
-                                            <a href="meebits/categorylist.html"
+                                            <a href="/"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Attributes</a>
 
                                             <div id="activity_dropdown" class="relative inline-block text-left">
@@ -80,10 +80,10 @@ function Homepage() {
                                                 </div> */}
                                             </div>
 
-                                            <a href="meebits/trade.html"
+                                            <a href="/"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Trade</a>
 
-                                            <a href="meebits/depositwithdraw.html"
+                                            <a href="/"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Deposit
                                                 / Withdraw</a>
 
@@ -145,27 +145,27 @@ function Homepage() {
                     <div class="border-b border-gray-700 md:hidden" id="mobile-menu">
                         <div class="px-2 py-3 space-y-1 sm:px-3 text-center">
 
-                            <a href="meebits/list.html" class="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">All
+                            <a href="/" class="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">All
                                 Meebits</a>
 
-                            <a href="meebits/categorylist.html"
+                            <a href="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Attributes</a>
 
-                            <a href="meebits/forsale.html"
+                            <a href="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">For
                                 Sale</a>
 
-                            <a href="meebits/bids.html"
+                            <a href="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Bids</a>
 
-                            <a href="meebits/sales.html"
+                            <a href="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Recent
                                 Sales</a>
 
-                            <a href="meebits/trade.html"
+                            <a href="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Trade</a>
 
-                            <a href="meebits/depositwithdraw.html"
+                            <a href="/"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Deposit
                                 / Withdraw</a>
 
@@ -429,13 +429,13 @@ function Homepage() {
                                                     <tbody class="bg-white divide-y divide-gray-200">
                                                         {dataArray.map((data, index) => {
                                                             return (
-                                                                <tr onclick="location.href='meebits/viewdeal3a5d.html?hash=0x8ea3e463531dbb78a2ed04418126d4262302bbf128c3cc025841c0c01128039a';"
+                                                                <tr onclick="/detail"
                                                                     style={{ cursor: "pointer" }}>
                                                                     <td class="align-top px-6 py-4 whitespace-nowrap m">
                                                                         <div class="flex items-center">
                                                                             <div class="">
                                                                                 <div class="text-md font-medium text-indigo-900">
-                                                                                    <a href="meebits/account4f57.html?address=0x1468Ab4AF0c76186c071e07f282bf11E4af37D5d"
+                                                                                    <a href="/detail"
                                                                                         class="hover:text-indigo-500">{data.makerid}</a>
                                                                                 </div>
                                                                             </div>
@@ -444,7 +444,7 @@ function Homepage() {
                                                                             {data.makerImages.map((img) => {
                                                                                 return (
                                                                                     <div class="flex-shrink-0 h-20 mr-1 mb-1">
-                                                                                        <a href="meebits/detail4f81.html?index=1979"><img
+                                                                                        <a href="/detail"><img
                                                                                             class="h-20 rounded-md"
                                                                                             src={img}
                                                                                             alt="" /></a>
@@ -457,7 +457,7 @@ function Homepage() {
                                                                         <div class="flex items-center">
                                                                             <div class="">
                                                                                 <div class="text-md font-medium text-indigo-900">
-                                                                                    <a href="meebits/account63a3.html?address=0xC272Ed09c636eDb6e858Fa8702C182406185F1af"
+                                                                                    <a href="/detail"
                                                                                         class="hover:text-indigo-500">{data.trakerid}</a>
                                                                                 </div>
                                                                             </div>
@@ -466,7 +466,7 @@ function Homepage() {
                                                                             {data.trakerimages.map((img) => {
                                                                                 return (
                                                                                     <div class="flex-shrink-0 h-20 mr-1 mb-1">
-                                                                                        <a href="meebits/detail5b81.html?index=19382"><img
+                                                                                        <a href="/detail"><img
                                                                                             class="h-20 rounded-md"
                                                                                             src={img}
                                                                                             alt="" /></a>
@@ -509,6 +509,39 @@ function Homepage() {
 
                 </div>
             </main>
+            <footer class="bg-white">
+                <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+                    <div class="flex justify-center space-x-6 md:order-2">
+
+                        <a href="https://twitter.com/larvalabs" class="text-gray-400 hover:text-gray-500">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+
+
+                        <a href="https://discord.gg/tQp4pSE" class="text-gray-400 hover:text-gray-500">
+                            <span class="sr-only">Discord</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                    <div class="mt-8 md:mt-0 md:order-1">
+                        <p class="text-center text-base text-gray-400">
+                            &copy; 2021 Larva Labs LLC. All rights reserved.
+                        </p>
+                        <p class="text-center text-base text-gray-400">
+                            <a class="" href="meebits/termsandconditions.html">Terms and Conditions</a> · <a class=""
+                                href="meebits/privacypolicy.html">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 }

@@ -64,18 +64,18 @@ function List() {
                             <div class="flex items-center justify-between h-16 px-4 sm:px-0">
                                 <div class="flex items-center">
                                     <div class="flex-shrink-0">
-                                        <a href="index.html" class="">
+                                        <a href="/" class="">
                                             <img class="h-8 w-8" src={logo} alt="Workflow" />
                                         </a>
                                     </div>
                                     <div class="hidden md:block">
                                         <div class="ml-10 flex items-baseline space-x-4">
 
-                                            <a href="meebits/list.html"
+                                            <a href="/list"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">All
                                                 Meebits</a>
 
-                                            <a href="meebits/categorylist.html"
+                                            <a href="/list"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Attributes</a>
 
                                             <div id="activity_dropdown" class="relative inline-block text-left">
@@ -124,10 +124,10 @@ function List() {
                                                 </div> */}
                                             </div>
 
-                                            <a href="meebits/trade.html"
+                                            <a href="/list"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Trade</a>
 
-                                            <a href="meebits/depositwithdraw.html"
+                                            <a href="/list"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Deposit
                                                 / Withdraw</a>
 
@@ -189,27 +189,27 @@ function List() {
                     <div class="border-b border-gray-700 md:hidden" id="mobile-menu">
                         <div class="px-2 py-3 space-y-1 sm:px-3 text-center">
 
-                            <a href="meebits/list.html" class="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">All
+                            <a href="/list" class="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">All
                                 Meebits</a>
 
-                            <a href="meebits/categorylist.html"
+                            <a href="/list"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Attributes</a>
 
-                            <a href="meebits/forsale.html"
+                            <a href="/list"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">For
                                 Sale</a>
 
-                            <a href="meebits/bids.html"
+                            <a href="/list"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Bids</a>
 
-                            <a href="meebits/sales.html"
+                            <a href="/list"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Recent
                                 Sales</a>
 
-                            <a href="meebits/trade.html"
+                            <a href="/list"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Trade</a>
 
-                            <a href="meebits/depositwithdraw.html"
+                            <a href="/list"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Deposit
                                 / Withdraw</a>
 
@@ -250,7 +250,7 @@ function List() {
                                 <li class="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
                                     <div class="flex-1 flex flex-col">
                                         <span class="inline-block relative">
-                                            <a href="detail2ab3.html?index=1">
+                                            <a href="/detail">
                                                 <img class="flex-shrink-0 mx-auto bg-black rounded-t-lg h-56 object-cover"
                                                     src={data.image} alt="" />
                                             </a>
@@ -260,7 +260,7 @@ function List() {
                                                 class="absolute bottom-1 right-1 px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">{data.greenData}&Xi;</span>}
                                         </span>
                                         <div class="p-4">
-                                            <h3 class="text-gray-900 text-xl font-medium"><a href="detail2ab3.html?index=1">#{data.id}</a>
+                                            <h3 class="text-gray-900 text-xl font-medium"><a href="/detail">#{data.id}</a>
                                             </h3>
                                             <dl class="mt-1 flex-grow flex flex-col justify-between">
                                                 <dt class="sr-only">Description</dt>
@@ -279,54 +279,54 @@ function List() {
                         <div class="-mt-px w-0 flex-1 flex">
                         </div>
                         <div class="hidden md:-mt-px md:flex">
-                            <a href="list543e.html?perPage=48&amp;page=1&amp;listType=all"
+                            <a href="/list"
                                 class="border-indigo-500 text-indigo-600 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium"
                                 aria-current="page">
                                 1
                             </a>
-                            <a href="listdd2e.html?perPage=48&amp;page=2&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 2
                             </a>
-                            <a href="list6850.html?perPage=48&amp;page=3&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 3
                             </a>
-                            <a href="list55cb.html?perPage=48&amp;page=4&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 4
                             </a>
-                            <a href="list93e8.html?perPage=48&amp;page=5&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 5
                             </a>
-                            <a href="list683a.html?perPage=48&amp;page=6&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 6
                             </a>
-                            <a href="listad4c.html?perPage=48&amp;page=7&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 7
                             </a>
-                            <a href="listdf45.html?perPage=48&amp;page=8&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 8
                             </a>
-                            <a href="list6f59.html?perPage=48&amp;page=9&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 9
                             </a>
-                            <a href="list5704.html?perPage=48&amp;page=10&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 10
                             </a>
-                            <a href="listfccf.html?perPage=48&amp;page=11&amp;listType=all"
+                            <a href="/list"
                                 class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium">
                                 11
                             </a>
                         </div>
                         <div class="-mt-px w-0 flex-1 flex justify-end">
-                            <a href="listdd2e.html?perPage=48&amp;page=2&amp;listType=all"
+                            <a href="/list"
                                 class="border-t-2 border-transparent pt-4 pl-1 inline-flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
                                 Next
                                 <svg class="ml-3 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg"
@@ -341,6 +341,39 @@ function List() {
 
                 </div>
             </main>
+            <footer class="bg-white">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+      <div class="flex justify-center space-x-6 md:order-2">
+
+        <a href="https://twitter.com/larvalabs" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">Twitter</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+          </svg>
+        </a>
+
+
+        <a href="https://discord.gg/tQp4pSE" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">Discord</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+          </svg>
+        </a>
+
+      </div>
+      <div class="mt-8 md:mt-0 md:order-1">
+        <p class="text-center text-base text-gray-400">
+          &copy; 2021 Larva Labs LLC. All rights reserved.
+        </p>
+        <p class="text-center text-base text-gray-400">
+          <a class="" href="meebits/termsandconditions.html">Terms and Conditions</a> · <a class=""
+            href="meebits/privacypolicy.html">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </footer>
         </div>
     );
 }

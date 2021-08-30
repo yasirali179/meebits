@@ -16,18 +16,18 @@ function Detail() {
                             <div class="flex items-center justify-between h-16 px-4 sm:px-0">
                                 <div class="flex items-center">
                                     <div class="flex-shrink-0">
-                                        <a href="index.html" class="">
+                                        <a href="/" class="">
                                             <img class="h-8 w-8" src={logo} alt="Workflow" />
                                         </a>
                                     </div>
                                     <div class="hidden md:block">
                                         <div class="ml-10 flex items-baseline space-x-4">
 
-                                            <a href="meebits/list.html"
+                                            <a href="/detail"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">All
                                                 Meebits</a>
 
-                                            <a href="meebits/categorylist.html"
+                                            <a href="/detail"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Attributes</a>
 
                                             <div id="activity_dropdown" class="relative inline-block text-left">
@@ -76,10 +76,10 @@ function Detail() {
                                                 </div> */}
                                             </div>
 
-                                            <a href="meebits/trade.html"
+                                            <a href="/detail"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Trade</a>
 
-                                            <a href="meebits/depositwithdraw.html"
+                                            <a href="/detail"
                                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Deposit
                                                 / Withdraw</a>
 
@@ -141,27 +141,27 @@ function Detail() {
                     <div class="border-b border-gray-700 md:hidden" id="mobile-menu">
                         <div class="px-2 py-3 space-y-1 sm:px-3 text-center">
 
-                            <a href="meebits/list.html" class="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">All
+                            <a href="/list" class="text-gray-300 px-3 py-2 rounded-md text-sm font-medium">All
                                 Meebits</a>
 
-                            <a href="meebits/categorylist.html"
+                            <a href="/detail"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Attributes</a>
 
-                            <a href="meebits/forsale.html"
+                            <a href="/detail"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">For
                                 Sale</a>
 
-                            <a href="meebits/bids.html"
+                            <a href="/detail"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Bids</a>
 
-                            <a href="meebits/sales.html"
+                            <a href="/detail"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Recent
                                 Sales</a>
 
-                            <a href="meebits/trade.html"
+                            <a href="/detail"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Trade</a>
 
-                            <a href="meebits/depositwithdraw.html"
+                            <a href="/detail"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Deposit
                                 / Withdraw</a>
 
@@ -206,19 +206,19 @@ function Detail() {
                                 <div class="lg:w-1/2 px-8">
                                     <img
                                         class="mb-4 rounded shadow cursor-pointer"
-                                        src="public/meebitimages/13766-fulla5d5.jpg?index=13766&amp;type=full" alt="" />
+                                        src="meebitimages/00001-fulle22e.jpg" alt="" />
                                     <div class="flex flex-wrap -mx-2">
                                         <div
                                             class="w-1/4 px-2"><img class="rounded shadow cursor-pointer"
-                                                src="public/meebitimages/13766-outfit39a8.jpg?index=13766&amp;type=outfit"
+                                                src="meebitimages/00001-fulle22e.jpg"
                                                 alt="" /></div>
                                         <div
                                             class="w-1/4 px-2"><img class="rounded shadow cursor-pointer"
-                                                src="public/meebitimages/13766-portrait7c12.jpg?index=13766&amp;type=portrait"
+                                                src="meebitimages/00001-fulle22e.jpg"
                                                 alt="" /></div>
                                         <div
                                             class="w-1/4 px-2"><img class="rounded shadow cursor-pointer"
-                                                src="public/meebitimages/13766-shoes693c.jpg?index=13766&amp;type=shoes"
+                                                src="meebitimages/00001-fulle22e.jpg"
                                                 alt="" /></div>
                                         <div class="w-1/4 px-2">
                                             <div
@@ -235,21 +235,21 @@ function Detail() {
                                 <div class="lg:w-1/2 px-8 mt-6 lg:mt-0 order-2 lg:order-none">
                                     <h2 class="text-4xl mb-2 font-semibold font-heading">Meebit #13766</h2>
                                     <p class="mb-6">
-                                        <a href="list460f.html?type=HUMAN"
+                                        <a href="/detail"
                                             class="font-semibold text-indigo-700 hover:text-indigo-500">Human</a>
                                     </p>
                                     <p class="mb-6">
                                         Owned by <a
-                                            href="accounte043.html?address=0xC31afe50abc2FC1a3Cb5B4d4A163738e595c8fEE"
+                                            href="/detail"
                                             class="text-indigo-700 hover:text-indigo-500">0xC31afe50</a>
                                     </p>
 
                                     <div class="mb-10">
-                                        <a href="#"
+                                        <a href="/detail"
                                             class="button inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                                             buttonMessage 
+                                            buttonMessage
                                         </a>
-                                        <a href="https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/13766"
+                                        <a href="/detail"
                                             class="button inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                                             View on OpenSea
                                         </a>
@@ -260,33 +260,33 @@ function Detail() {
                                         <tbody>
                                             <tr class="border-t">
                                                 <td class="py-3">Hair</td>
-                                                <td class="text-right"><a href="search804d.html?search=Hair%3A%22Long%22"
+                                                <td class="text-right"><a href="/detail"
                                                     class="text-indigo-700 hover:text-indigo-500">Long (773)</a>, <a
-                                                        href="searchae0e.html?search=Hair%3A%22Long+Dark%22"
+                                                        href="/detail"
                                                         class="text-indigo-700 hover:text-indigo-500">Dark (473)</a></td>
                                             </tr>
                                             <tr class="border-t">
                                                 <td class="py-3">Shirt</td>
                                                 <td class="text-right"><a
-                                                    href="search7245.html?search=Shirt%3A%22Diagonal+Tee%22"
+                                                    href="/detail"
                                                     class="text-indigo-700 hover:text-indigo-500">Diagonal Tee
                                                     (753)</a>, <a
-                                                        href="search9b95.html?search=Shirt%3A%22Diagonal+Tee+Yellow%22"
+                                                        href="/detail"
                                                         class="text-indigo-700 hover:text-indigo-500">Yellow (70)</a></td>
                                             </tr>
                                             <tr class="border-t">
                                                 <td class="py-3">Pants</td>
-                                                <td class="text-right"><a href="searchb91c.html?search=Pants%3A%22Skirt%22"
+                                                <td class="text-right"><a href="/detail"
                                                     class="text-indigo-700 hover:text-indigo-500">Skirt (2384)</a>, <a
-                                                        href="searchbf23.html?search=Pants%3A%22Skirt+Dark+Red%22"
+                                                        href="/detail"
                                                         class="text-indigo-700 hover:text-indigo-500">Dark Red (183)</a>
                                                 </td>
                                             </tr>
                                             <tr class="border-t">
                                                 <td class="py-3">Shoes</td>
-                                                <td class="text-right"><a href="search059b.html?search=Shoes%3A%22Canvas%22"
+                                                <td class="text-right"><a href="/detail"
                                                     class="text-indigo-700 hover:text-indigo-500">Canvas (3808)</a>, <a
-                                                        href="search680b.html?search=Shoes%3A%22Canvas+Gray%22"
+                                                        href="/detail"
                                                         class="text-indigo-700 hover:text-indigo-500">Gray (869)</a></td>
                                             </tr>
                                         </tbody>
@@ -317,7 +317,7 @@ function Detail() {
 
                                                         <span class="ml-2 flex-1 w-0 truncate">
                                                             Top Bid (<a class="text-indigo-700 hover:text-indigo-500"
-                                                                href="https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/13766">OpenSea</a>)
+                                                                href="/detail">OpenSea</a>)
                                                         </span>
                                                     </div>
                                                 </td>
@@ -407,13 +407,13 @@ function Detail() {
                                                     </tr>
                                                 </thead>
                                                 <tbody class="bg-white divide-y divide-gray-200">
-                                                    <tr onclick="location.href='viewdeal2b56.html?hash=0x981255f723a42982196da9aa6326517531d47342cf3ac5786f559cb4a1a82fb1';"
-                                                        style={{cursor: 'pointer'}}>
+                                                    <tr
+                                                        style={{ cursor: 'pointer' }}>
                                                         <td class="align-top px-6 py-4 whitespace-nowrap m">
                                                             <div class="flex items-center">
                                                                 <div class="">
                                                                     <div class="text-md font-medium text-indigo-900">
-                                                                        <a href="accounte043.html?address=0xC31afe50abc2FC1a3Cb5B4d4A163738e595c8fEE"
+                                                                        <a href="/detail"
                                                                             class="hover:text-indigo-500">0xC31afe50</a>
                                                                     </div>
                                                                 </div>
@@ -422,7 +422,7 @@ function Detail() {
                                                                 <div class="flex-shrink-0 h-20 mr-1 mb-1">
                                                                     <a href="detail908e.html?index=13766"><img
                                                                         class="h-20 rounded-md"
-                                                                        src="public/meebitimages/13766-fulla5d5.jpg?index=13766&amp;type=full"
+                                                                        src="meebitimages/00001-fulle22e.jpg"
                                                                         alt="" /></a>
                                                                 </div>
                                                             </div>
@@ -431,7 +431,7 @@ function Detail() {
                                                             <div class="flex items-center">
                                                                 <div class="">
                                                                     <div class="text-md font-medium text-indigo-900">
-                                                                        <a href="account1c5c.html?address=0xC2B46C60AFe93Cda3855F67FCDa6D6844723Ddb8"
+                                                                        <a href="/detail"
                                                                             class="hover:text-indigo-500">0xC2B46C60</a>
                                                                     </div>
                                                                 </div>
@@ -456,7 +456,7 @@ function Detail() {
                                                         </td>
                                                         <td
                                                             class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                                            <a href="viewdeal2b56.html?hash=0x981255f723a42982196da9aa6326517531d47342cf3ac5786f559cb4a1a82fb1"
+                                                            <a href="/detail"
                                                                 class="text-indigo-600 hover:text-indigo-900">View Deal</a>
                                                         </td>
                                                     </tr>
@@ -495,7 +495,7 @@ function Detail() {
                                                     <div class="min-w-0 flex-1">
                                                         <div>
                                                             <div class="text-sm">
-                                                                <a href="viewdeal2b56.html?hash=0x981255f723a42982196da9aa6326517531d47342cf3ac5786f559cb4a1a82fb1"
+                                                                <a href="/detail"
                                                                     class="font-medium text-gray-900">Deal Offered by
                                                                     0xC31afe50</a>
                                                             </div>
@@ -512,23 +512,23 @@ function Detail() {
                                                         <div class="mt-2 text-sm text-gray-700">
                                                             <p>
                                                                 <table>
-                                                                    <tr onclick="location.href='viewdeal2b56.html?hash=0x981255f723a42982196da9aa6326517531d47342cf3ac5786f559cb4a1a82fb1';"
-                                                                        style={{cursor: 'pointer'}}>
+                                                                    <tr
+                                                                        style={{ cursor: 'pointer' }}>
                                                                         <td class="align-top px-6 py-2 whitespace-nowrap m">
                                                                             <div class="flex items-center">
                                                                                 <div class="">
                                                                                     <div
                                                                                         class="text-md font-medium text-indigo-900">
-                                                                                        <a href="accounte043.html?address=0xC31afe50abc2FC1a3Cb5B4d4A163738e595c8fEE"
+                                                                                        <a href="/detail"
                                                                                             class="hover:text-indigo-500">0xC31afe50</a>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="flex flex-wrap items-center mt-2">
                                                                                 <div class="flex-shrink-0 h-20 mr-1 mb-1">
-                                                                                    <a href="detail908e.html?index=13766"><img
+                                                                                    <a href="/detail"><img
                                                                                         class="h-20 rounded-md"
-                                                                                        src="public/meebitimages/13766-fulla5d5.jpg?index=13766&amp;type=full"
+                                                                                        src="meebitimages/00001-fulle22e.jpg"
                                                                                         alt="" /></a>
                                                                                 </div>
                                                                             </div>
@@ -538,259 +538,292 @@ function Detail() {
                                                                                 <div class="">
                                                                                     <div
                                                                                         class="text-md font-medium text-indigo-900">
-                                                                                        <a href="account1c5c.html?address=0xC2B46C60AFe93Cda3855F67FCDa6D6844723Ddb8"
+                                                                                        <a href="/detail"
                                                                                             class="hover:text-indigo-500">0xC2B46C60</a>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="flex flex-wrap items-center mt-2">
                                                                                 <div class="flex-shrink-0 h-20 mr-1 mb-1">
-                                                                                    <a href="detailffcf.html?index=551"><img
+                                                                                    <a href="/detail"><img
                                                                                         class="h-20 rounded-md"
-                                                                                        src="public/meebitimages/00551-full1227.jpg?index=551&amp;type=full"
-                                                                                        alt=""/></a>
-                                                                        </div>
+                                                                                        src="meebitimages/00001-fulle22e.jpg"
+                                                                                        alt="" /></a>
                                                                                 </div>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                        </p>
-                                                    </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                    </li>
-                                            <li>
-                                                <div class="relative pb-8">
-                                                    <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                                                        aria-hidden="true"></span>
-                                                    <div class="relative flex items-start space-x-3">
-                                                        <div class="relative">
-                                                            <span
-                                                                class="h-10 w-10 rounded-full bg-yellow-500 flex items-center justify-center ring-8 ring-white">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="relative pb-8">
+                                                <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
+                                                    aria-hidden="true"></span>
+                                                <div class="relative flex items-start space-x-3">
+                                                    <div class="relative">
+                                                        <span
+                                                            class="h-10 w-10 rounded-full bg-yellow-500 flex items-center justify-center ring-8 ring-white">
 
-                                                                <svg class="h-5 w-5 text-white"
-                                                                    xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2"
-                                                                        d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                        <div class="min-w-0 flex-1">
-                                                            <div>
-                                                                <div class="text-sm">
-                                                                    <a href="https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/13766"
-                                                                        target="_blank" class="font-medium text-gray-900">45
-                                                                        bids from 4 bidders, ranging from 2.38&Xi; to
-                                                                        3.05&Xi;</a>
-                                                                    <a href="https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/13766"
-                                                                        target="_blank"
-                                                                        class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                                                                        <span
-                                                                            class="absolute flex-shrink-0 flex items-center justify-center">
-                                                                            <span class="h-1.5 w-1.5 rounded-full bg-blue-500"
-                                                                                aria-hidden="true"></span>
-                                                                        </span>
-                                                                        <span
-                                                                            class="ml-3.5 font-medium text-gray-900">OpenSea</span>
-                                                                    </a>
-                                                                    <div
-                                                                        class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                                                                        <span
-                                                                            class="absolute flex-shrink-0 flex items-center justify-center">
-                                                                            <span class="h-1.5 w-1.5 rounded-full bg-yellow-500"
-                                                                                aria-hidden="true"></span>
-                                                                        </span>
-                                                                        <span
-                                                                            class="ml-3.5 font-medium text-gray-900">Summary</span>
-                                                                    </div>
+                                                            <svg class="h-5 w-5 text-white"
+                                                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2"
+                                                                    d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <div class="min-w-0 flex-1">
+                                                        <div>
+                                                            <div class="text-sm">
+                                                                <a href="/detail"
+                                                                    target="_blank" class="font-medium text-gray-900">45
+                                                                    bids from 4 bidders, ranging from 2.38&Xi; to
+                                                                    3.05&Xi;</a>
+                                                                <a href="/detail"
+                                                                    target="_blank"
+                                                                    class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
+                                                                    <span
+                                                                        class="absolute flex-shrink-0 flex items-center justify-center">
+                                                                        <span class="h-1.5 w-1.5 rounded-full bg-blue-500"
+                                                                            aria-hidden="true"></span>
+                                                                    </span>
+                                                                    <span
+                                                                        class="ml-3.5 font-medium text-gray-900">OpenSea</span>
+                                                                </a>
+                                                                <div
+                                                                    class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
+                                                                    <span
+                                                                        class="absolute flex-shrink-0 flex items-center justify-center">
+                                                                        <span class="h-1.5 w-1.5 rounded-full bg-yellow-500"
+                                                                            aria-hidden="true"></span>
+                                                                    </span>
+                                                                    <span
+                                                                        class="ml-3.5 font-medium text-gray-900">Summary</span>
                                                                 </div>
-                                                                <p class="mt-0.5 text-sm text-gray-500">
-                                                                    1 day ago to 2 hours ago
-                                                                </p>
                                                             </div>
+                                                            <p class="mt-0.5 text-sm text-gray-500">
+                                                                1 day ago to 2 hours ago
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </li>
-                                            <li>
-                                                <div class="relative pb-8">
-                                                    <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                                                        aria-hidden="true"></span>
-                                                    <div class="relative flex items-start space-x-3">
-                                                        <div class="relative">
-                                                            <span
-                                                                class="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white">
-                                                                <svg class="h-5 w-5 text-white"
-                                                                    xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2"
-                                                                        d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                        <div class="min-w-0 flex-1">
-                                                            <div>
-                                                                <div class="text-sm">
-                                                                    <a href="https://etherscan.io/tx/0xa530ccd07df0546b8cd10ae9c0d8c7036d37c08400d26b2f75a281c4f20e63c7"
-                                                                        target="_blank" class="font-medium text-gray-900">Sold
-                                                                        to 0xC31afe50 for 3.7&Xi;</a>
-                                                                    <a href="https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/13766"
-                                                                        class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                                                                        <span
-                                                                            class="absolute flex-shrink-0 flex items-center justify-center">
-                                                                            <span class="h-1.5 w-1.5 rounded-full bg-indigo-500"
-                                                                                aria-hidden="true"></span>
-                                                                        </span>
-                                                                        <span
-                                                                            class="ml-3.5 font-medium text-gray-900">OpenSea</span>
-                                                                    </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="relative pb-8">
+                                                <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
+                                                    aria-hidden="true"></span>
+                                                <div class="relative flex items-start space-x-3">
+                                                    <div class="relative">
+                                                        <span
+                                                            class="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white">
+                                                            <svg class="h-5 w-5 text-white"
+                                                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2"
+                                                                    d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <div class="min-w-0 flex-1">
+                                                        <div>
+                                                            <div class="text-sm">
+                                                                <a href="/detail"
+                                                                    target="_blank" class="font-medium text-gray-900">Sold
+                                                                    to 0xC31afe50 for 3.7&Xi;</a>
+                                                                <a href="/detail"
+                                                                    class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
+                                                                    <span
+                                                                        class="absolute flex-shrink-0 flex items-center justify-center">
+                                                                        <span class="h-1.5 w-1.5 rounded-full bg-indigo-500"
+                                                                            aria-hidden="true"></span>
+                                                                    </span>
+                                                                    <span
+                                                                        class="ml-3.5 font-medium text-gray-900">OpenSea</span>
+                                                                </a>
 
-                                                                </div>
-                                                                <p class="mt-0.5 text-sm text-gray-500">
-                                                                    1 day ago
-                                                                </p>
                                                             </div>
+                                                            <p class="mt-0.5 text-sm text-gray-500">
+                                                                1 day ago
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </li>
-                                            <li>
-                                                <div class="relative pb-8">
-                                                    <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                                                        aria-hidden="true"></span>
-                                                    <div class="relative flex items-start space-x-3">
-                                                        <div class="relative">
-                                                            <span
-                                                                class="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white">
-                                                                <svg class="h-5 w-5 text-white"
-                                                                    xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                        <div class="min-w-0 flex-1">
-                                                            <div>
-                                                                <div class="text-sm">
-                                                                    <a href="https://etherscan.io/tx/0xa530ccd07df0546b8cd10ae9c0d8c7036d37c08400d26b2f75a281c4f20e63c7"
-                                                                        target="_blank"
-                                                                        class="font-medium text-gray-900">Transferred from
-                                                                        0x57dcd38a to 0xC31afe50</a>
-                                                                </div>
-                                                                <p class="mt-0.5 text-sm text-gray-500">
-                                                                    1 day ago
-                                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="relative pb-8">
+                                                <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
+                                                    aria-hidden="true"></span>
+                                                <div class="relative flex items-start space-x-3">
+                                                    <div class="relative">
+                                                        <span
+                                                            class="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white">
+                                                            <svg class="h-5 w-5 text-white"
+                                                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <div class="min-w-0 flex-1">
+                                                        <div>
+                                                            <div class="text-sm">
+                                                                <a href="https://etherscan.io/tx/0xa530ccd07df0546b8cd10ae9c0d8c7036d37c08400d26b2f75a281c4f20e63c7"
+                                                                    target="_blank"
+                                                                    class="font-medium text-gray-900">Transferred from
+                                                                    0x57dcd38a to 0xC31afe50</a>
                                                             </div>
+                                                            <p class="mt-0.5 text-sm text-gray-500">
+                                                                1 day ago
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </li>
-                                            <li>
-                                                <div class="relative pb-8">
-                                                    <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
-                                                        aria-hidden="true"></span>
-                                                    <div class="relative flex items-start space-x-3">
-                                                        <div class="relative">
-                                                            <span
-                                                                class="h-10 w-10 rounded-full bg-yellow-500 flex items-center justify-center ring-8 ring-white">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="relative pb-8">
+                                                <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200"
+                                                    aria-hidden="true"></span>
+                                                <div class="relative flex items-start space-x-3">
+                                                    <div class="relative">
+                                                        <span
+                                                            class="h-10 w-10 rounded-full bg-yellow-500 flex items-center justify-center ring-8 ring-white">
 
-                                                                <svg class="h-5 w-5 text-white"
-                                                                    xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2"
-                                                                        d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                        <div class="min-w-0 flex-1">
-                                                            <div>
-                                                                <div class="text-sm">
-                                                                    <a href="https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/13766"
-                                                                        target="_blank" class="font-medium text-gray-900">29
-                                                                        bids from 3 bidders, ranging from 2.82&Xi; to
-                                                                        2.96&Xi;</a>
-                                                                    <a href="https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/13766"
-                                                                        target="_blank"
-                                                                        class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                                                                        <span
-                                                                            class="absolute flex-shrink-0 flex items-center justify-center">
-                                                                            <span class="h-1.5 w-1.5 rounded-full bg-blue-500"
-                                                                                aria-hidden="true"></span>
-                                                                        </span>
-                                                                        <span
-                                                                            class="ml-3.5 font-medium text-gray-900">OpenSea</span>
-                                                                    </a>
-                                                                    <div
-                                                                        class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
-                                                                        <span
-                                                                            class="absolute flex-shrink-0 flex items-center justify-center">
-                                                                            <span class="h-1.5 w-1.5 rounded-full bg-yellow-500"
-                                                                                aria-hidden="true"></span>
-                                                                        </span>
-                                                                        <span
-                                                                            class="ml-3.5 font-medium text-gray-900">Summary</span>
-                                                                    </div>
+                                                            <svg class="h-5 w-5 text-white"
+                                                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2"
+                                                                    d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <div class="min-w-0 flex-1">
+                                                        <div>
+                                                            <div class="text-sm">
+                                                                <a href="/detail"
+                                                                    target="_blank" class="font-medium text-gray-900">29
+                                                                    bids from 3 bidders, ranging from 2.82&Xi; to
+                                                                    2.96&Xi;</a>
+                                                                <a href="/detail"
+                                                                    target="_blank"
+                                                                    class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
+                                                                    <span
+                                                                        class="absolute flex-shrink-0 flex items-center justify-center">
+                                                                        <span class="h-1.5 w-1.5 rounded-full bg-blue-500"
+                                                                            aria-hidden="true"></span>
+                                                                    </span>
+                                                                    <span
+                                                                        class="ml-3.5 font-medium text-gray-900">OpenSea</span>
+                                                                </a>
+                                                                <div
+                                                                    class="relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
+                                                                    <span
+                                                                        class="absolute flex-shrink-0 flex items-center justify-center">
+                                                                        <span class="h-1.5 w-1.5 rounded-full bg-yellow-500"
+                                                                            aria-hidden="true"></span>
+                                                                    </span>
+                                                                    <span
+                                                                        class="ml-3.5 font-medium text-gray-900">Summary</span>
                                                                 </div>
-                                                                <p class="mt-0.5 text-sm text-gray-500">
-                                                                    2 days ago to 1 day ago
-                                                                </p>
                                                             </div>
+                                                            <p class="mt-0.5 text-sm text-gray-500">
+                                                                2 days ago to 1 day ago
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </li>
-                                            <li>
-                                                <div class="relative pb-8">
-                                                    <div class="relative flex items-start space-x-3">
-                                                        <div class="relative">
-                                                            <span
-                                                                class="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                    class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
-                                                                    stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2"
-                                                                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                        <div class="min-w-0 flex-1">
-                                                            <div>
-                                                                <div class="text-sm">
-                                                                    <a href="https://etherscan.io/tx/0xabf69aa1350d99382de53d23c11795767487805605224f3b9ba28b73128453e2"
-                                                                        target="_blank" class="font-medium text-gray-900">Minted
-                                                                        by 0x57dcd38a</a>
-                                                                </div>
-                                                                <p class="mt-0.5 text-sm text-gray-500">
-                                                                    3 months ago
-                                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="relative pb-8">
+                                                <div class="relative flex items-start space-x-3">
+                                                    <div class="relative">
+                                                        <span
+                                                            class="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white">
+                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
+                                                                stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2"
+                                                                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <div class="min-w-0 flex-1">
+                                                        <div>
+                                                            <div class="text-sm">
+                                                                <a href="/detail"
+                                                                    target="_blank" class="font-medium text-gray-900">Minted
+                                                                    by 0x57dcd38a</a>
                                                             </div>
+                                                            <p class="mt-0.5 text-sm text-gray-500">
+                                                                3 months ago
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </li>
-                                </ul>
-                            </div>
-
-
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
 
-                    </section>
 
-                          
-                </div>
+                            </div>
+
+                        </section>
 
 
                     </div>
-        </main>
+
+
+                </div>
+            </main>
+            <footer class="bg-white">
+                <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+                    <div class="flex justify-center space-x-6 md:order-2">
+
+                        <a href="https://twitter.com/larvalabs" class="text-gray-400 hover:text-gray-500">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+
+
+                        <a href="https://discord.gg/tQp4pSE" class="text-gray-400 hover:text-gray-500">
+                            <span class="sr-only">Discord</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                    <div class="mt-8 md:mt-0 md:order-1">
+                        <p class="text-center text-base text-gray-400">
+                            &copy; 2021 Larva Labs LLC. All rights reserved.
+                        </p>
+                        <p class="text-center text-base text-gray-400">
+                            <a class="" href="meebits/termsandconditions.html">Terms and Conditions</a> · <a class=""
+                                href="meebits/privacypolicy.html">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
         </div>
-            );
+    );
 }
 
-            export default Detail;
+export default Detail;
